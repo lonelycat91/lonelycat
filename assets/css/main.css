@@ -1,0 +1,74 @@
+body {
+    background-color: #0E2193;
+    width: 100%;
+}
+
+.header-top-wrapper {
+    background-color: #000c51;
+}
+.header-midder-wrapper {
+    background-color: #0E2193;
+    height: 60px;
+}
+
+.text-gradient {
+    text-decoration: none;
+    background: linear-gradient(234.85deg,#a6dbf7 9.06%,#51bcf9 102.41%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.video {
+    width: 100%;
+} 
+
+.tamnhin {
+    margin: 50px 0;
+}
+
+.value .tamnhin .item {
+    width: 95%;
+    padding: 18px;
+    border: 1px solid hsla(0,0%,100%,.4);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: auto;
+}
+
+.dichvu-trai, 
+.dichvu-phai {
+    width: 50%;
+}
+
+.dichvu-list {
+    border-radius: 15px;
+    border: 5px solid rgba(234,233,242,.08);
+}
+
+.dichvu-item {
+    border-radius: 15px;
+    background-color: rgba(234,233,242,.08);
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.slide-doitackhac .partner-logo{
+   padding: 10px;
+}
+
+.slide-doitackhac.slick-slider {
+    display: flex;
+}
+
+.slide-doitackhac .slick-arrow {
+    margin-top: auto;
+    margin-bottom: auto;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px
+}
+
+.blo
