@@ -1,0 +1,28 @@
+@media (max-width: 739px) {
+
+}
+
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* Touch resolution */
+@media (max-width: 1023px) {
+    .dichvu .dichvu-trai, .dichvu-phai {
+        width: 100%;
+    }
+    .dichvu {
+        flex-direction: column;
+    }
+}
+
+/* Touch resolution */
+@media (min-width: 1024px) {
+    .dichvu .dichvu-trai, .dichvu-phai {
+        width: 50%;
+    }
+    .dichvu {
+        flex-direction: row;
+    }
+}
