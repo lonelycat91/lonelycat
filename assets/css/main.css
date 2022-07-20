@@ -11,6 +11,19 @@ body {
     height: 60px;
 }
 
+.header-midder-wrapper .language .hambuger {
+    margin-left: 25px;
+    font-size: 25px;
+    display: none;
+}
+
+header .mobi-menu {
+    width: 739px;
+    display: none;
+    background: #000c51;
+    display: none;
+}
+
 .text-gradient {
     text-decoration: none;
     background: linear-gradient(234.85deg,#a6dbf7 9.06%,#51bcf9 102.41%);
@@ -22,8 +35,23 @@ body {
     width: 100%;
 } 
 
-.tamnhin {
-    margin: 50px 0;
+.value {
+    margin-top: 150px;
+    z-index: 2;
+}
+
+.value .glow1 {
+    right: 0;
+    width: 300px;
+    top: 0;
+}
+
+.value .glow2 {
+    left: 0;
+    width: 300px;
+    top:-200px;
+    transform: rotate(180deg);
+    z-index: 1;
 }
 
 .value .tamnhin .item {
@@ -54,6 +82,11 @@ body {
     transition: all 0.3s ease;
 }
 
+
+/* Đối tác */
+.doitac {
+    margin-top: 100px;
+}
 .slide-doitackhac .partner-logo{
    padding: 10px;
 }
@@ -71,6 +104,84 @@ body {
     font-size: 20px
 }
 
+.doitackhac, .doitactruyenthong {
+    margin-top: 100px; 
+}
+
+/* End Slide đối tác */
+
+/* Blog slide */
+.duan {
+    margin-top: 150px;
+}
+
+ 
+ .slide-blog.slick-slider {
+     display: flex;
+ }
+ 
+ .slide-blog .slick-slide {
+    padding: 40px;
+    transform: scale(.8);
+ }
+
+ .slide-blog .slick-slide.slick-current.slick-active {
+    transform: scale(1);
+    transition: all 0.3s ease;
+ }
+
+ .slide-blog .slick-arrow {
+     margin-top: auto;
+     margin-bottom: auto;
+     background: transparent;
+     border: none;
+     color: white;
+     font-size: 20px;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     z-index: 2;
+ }
+
+ .slide-blog .slick-prev.pull-left {
+    left: 200px;
+ }
+
+ .slide-blog .slick-next.pull-right {
+    right: 200px;
+ }
+
 .blog-item {
-    width: 700px;
+    width: 850px;
+    padding: 40px;
+    background-color: rgba(233,234,242,.1);
+    border-radius: 10px;
+}
+
+.blog-item .blog-img     {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 150px;
+    background: #000940;
+    padding: 80px 0;
+}
+
+footer .footer-logo {
+    margin-bottom: 15px;
+}
+
+footer .contact-item {
+    display: flex;
+    max-width: 80%;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+footer i {
+    margin-right: 20px;
 }
