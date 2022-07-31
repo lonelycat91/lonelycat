@@ -6,11 +6,21 @@
     }
     .dichvu {
         flex-direction: row;
+        margin-top: 50px;
     }
+
 }
 
 /* Touch resolution */
 @media (max-width: 1023px) {
+    .header-top-wrapper,
+    .header-mid-wrapper {
+        display: none;
+    }
+    .header-mobile {
+        display: block;
+    }
+
     .dichvu .dichvu-trai, .dichvu-phai {
         width: 100%;
     }
@@ -23,14 +33,9 @@
      .slide-blog .slick-next.pull-right {
         right: 0px;
      }
-
      .d-t-none {
         display: none !important;
      }
-     .header-midder-wrapper .language .hambuger {
-        display: block;
-        margin-left: 15px;
-    }
 }
 
 /* Tablet - PC low resolution */

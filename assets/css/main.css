@@ -1,36 +1,30 @@
 body {
     background-color: #0E2193;
+}
+#navbar {
+    background-color: var(--primary-color) /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+
+  .header-top {
+    background-color: #000940;
+    height: 30px;
     width: 100%;
-}
-
-.header-top-wrapper {
-    background-color: #000c51;
-}
-.header-midder-wrapper {
-    background-color: #0E2193;
-    height: 60px;
-}
-
-.header-midder-wrapper .language .hambuger {
-    margin-left: 25px;
-    font-size: 25px;
-    display: none;
-}
-
-header .mobi-menu {
-    width: 739px;
-    display: none;
-    background: #000c51;
-    display: none;
-}
-
+  }
+  
 .text-gradient {
     text-decoration: none;
     background: linear-gradient(234.85deg,#a6dbf7 9.06%,#51bcf9 102.41%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-
+.main-menu {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
 .video {
     width: 100%;
 } 
@@ -63,6 +57,9 @@ header .mobi-menu {
     cursor: pointer;
     margin: auto;
 }
+
+
+/* dichvu */
 
 .dichvu-trai, 
 .dichvu-phai {
