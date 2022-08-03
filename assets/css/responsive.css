@@ -13,13 +13,36 @@
 
 /* Touch resolution */
 @media (max-width: 1023px) {
-    .header-top-wrapper,
-    .header-mid-wrapper {
+    #navbar {
         display: none;
     }
-    .header-mobile {
-        display: block;
-    }
+.header-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 60px;
+}
+.header-mobile .mobile-logo {
+    padding: 5px;
+}
+.header-mobile .mobile-navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.header-mobile .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    background-color: var(--secondary-color);
+}
+.header-mobile .mobile-menu.open {
+    display: block;
+}
+
 
     .dichvu .dichvu-trai, .dichvu-phai {
         width: 100%;
