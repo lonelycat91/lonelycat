@@ -13,7 +13,9 @@ body {
   .header-mobile {
     display: none;
   }
-
+  .header-mobile .mobile-menu {
+    display: none;
+  }
   .header-top {
     background-color: #000940;
     height: 30px;
