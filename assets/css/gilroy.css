@@ -1,0 +1,90 @@
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/fonts/Gilroy/SVN-Gilroy\ Black.otf") format("opentype");
+font-weight: 900;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Black\ Italic.otf") format("opentype");
+font-weight: 900;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Bold.otf") format("opentype");
+font-weight: 700;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Bold\ Italic.otf") format("opentype");
+font-weight: 700;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Heavy.otf") format("opentype");
+font-weight: 800;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Heavy\ Italic.otf") format("opentype");
+font-weight: 800;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Italic.otf") format("opentype");
+font-weight: 500;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Light.otf") format("opentype");
+font-weight: 200;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Light\ Italic.otf") format("opentype");
+font-weight: 200;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Medium.otf") format("opentype");
+font-weight: 400;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Medium\ Italic.otf") format("opentype");
+font-weight: 400;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Regular.otf") format("opentype");
+font-weight: 500;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ SemiBold.otf") format("opentype");
+font-weight: 600;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ SemiBold\ Italic.otf") format("opentype");
+font-weight: 600;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Thin.otf") format("opentype");
+font-weight: 300;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Thin\ Italic.otf") format("opentype");
+font-weight: 300;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Xlight.otf") format("opentype");
+font-weight: 100;
+}
+@font-face {
+font-family: "Gilroy";
+src: url("/wp-content/themes/sworld/assets/fonts/Gilroy/SVN-Gilroy\ Xlight\ Italic.otf") format("opentype");
+font-weight: 100;
+}
